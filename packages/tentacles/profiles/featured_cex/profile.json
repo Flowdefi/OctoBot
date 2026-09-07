@@ -1,0 +1,69 @@
+{
+    "config": {
+        "crypto-currencies": {
+            "Bitcoin": {
+                "enabled": true,
+                "pairs": [
+                    "BTC/USDT"
+                ]
+            },
+            "Ethereum": {
+                "enabled": true,
+                "pairs": [
+                    "ETH/USDT"
+                ]
+            }
+        },
+        "exchanges": {
+            "mexc": {
+                "enabled": true
+            },
+            "bingx": {
+                "enabled": true
+            },
+            "blofin": {
+                "enabled": true
+            },
+            "bitunix": {
+                "enabled": true
+            },
+            "bydfi": {
+                "enabled": true
+            }
+        },
+        "trader": {
+            "enabled": false,
+            "load-trade-history": false
+        },
+        "trader-simulator": {
+            "enabled": true,
+            "fees": {
+                "maker": 0.1,
+                "taker": 0.1
+            },
+            "starting-portfolio": {
+                "BTC": 1,
+                "ETH": 10,
+                "USDT": 10000
+            }
+        },
+        "trading": {
+            "reference-market": "USDT",
+            "risk": 0.3
+        },
+        "services": {
+            "marketing-assets": {
+                "enabled": true
+            }
+        }
+    },
+    "profile": {
+        "avatar": "default_profile.png",
+        "risk": 2,
+        "complexity": 1,
+        "description": "Paper-trading profile for MEXC, BingX, BloFin, Bitunix, and BYDFi, plus modern minimal marketing cards.",
+        "id": "featured_cex",
+        "name": "Featured CEX",
+        "read_only": false
+    }
+}

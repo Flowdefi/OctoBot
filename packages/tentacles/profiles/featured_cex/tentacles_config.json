@@ -1,0 +1,20 @@
+{
+    "tentacle_activation": {
+        "Evaluator": {
+            "DoubleMovingAverageTrendEvaluator": true,
+            "RSIMomentumEvaluator": true,
+            "SimpleStrategyEvaluator": true
+        },
+        "Services": {
+            "MarketingAssetsService": true
+        },
+        "Trading": {
+            "DailyTradingMode": true,
+            "Blofin": true,
+            "Bitunix": true,
+            "Bydfi": true,
+            "Bingx": true,
+            "MEXC": true
+        }
+    }
+}

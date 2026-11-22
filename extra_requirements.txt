@@ -1,2 +1,5 @@
 ## Socks proxy requirements
 aiohttp_socks==0.11.0
+
+# Marketing asset renderer (modern/minimal crypto cards)
+Pillow==11.3.0

@@ -227,6 +227,10 @@ CONFIG_REDDIT_CLIENT_SECRET = "client-secret"
 CONFIG_REDDIT_PASSWORD = "password"
 CONFIG_REDDIT_USERNAME = "username"
 
+# Marketing assets
+CONFIG_MARKETING_ASSETS = "marketing-assets"
+CONFIG_MARKETING_ASSETS_OUTPUT_DIR = "output-dir"
+
 # Coindesk
 CONFIG_COINDESK = "coindesk"
 CONFIG_COINDESK_API_KEY = "api-key"
